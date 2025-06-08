@@ -6,6 +6,7 @@ import Menu from './Components/Menu';
 const headMenu = ['all', ...new Set(menus.map(rr => rr.category))]
 
 
+
 function App() {
 
   const [thing , setThing] = useState(menus)
